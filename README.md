@@ -4,6 +4,8 @@
 
 To eliminate counterparty default and scam risks on campus, WishCard uses a **custody-protected escrow model with Razorpay integration, real-time geolocation proximity sorting, encrypted 1-on-1 deal chatrooms, and two-party in-person handoff OTP verification**.
 
+Video Demonstration Link - https://drive.google.com/file/d/1Yj3z52dhjZkK2Unm74J4TZ-S0JJVMQDv/view?usp=sharing
+
 ---
 
 ## What Problem Does WishCard Solve?
