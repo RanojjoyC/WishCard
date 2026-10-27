@@ -85,6 +85,9 @@ app.use('/api/requests', requestRoutes);
 app.use('/api/holders', holderRoutes);
 app.use('/api/chat', chatRoutes);
 app.use('/api/upload', uploadRoutes);
+app.use('/',(req,res)=>{
+  res.send("welcome to wishcard api")
+})
 
 app.get('/api/health', (req, res) => {
   res.json({
