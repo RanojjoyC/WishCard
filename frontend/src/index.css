@@ -1,0 +1,101 @@
+:root {
+  --font-heading: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-body: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  /* Warm Ochre / Cream / Charcoal Palette from Reference Image */
+  --bg-page: #fbf9f5;
+  --bg-sidebar: #f5f2eb;
+  --bg-card: #ffffff;
+  --bg-subtle: #f0ece1;
+  --bg-hover: #ebe6da;
+
+  --border-light: #e6e0d2;
+  --border-card: #eae4d8;
+  --border-dark: #22201d;
+
+  /* Primary Accent: Mustard Ochre / Warm Earth */
+  --primary-ochre: #a36222;
+  --primary-ochre-hover: #8c5119;
+  --primary-ochre-subtle: #faf2e8;
+  
+  /* Jet Black Pill button & accents */
+  --btn-black: #0d0c0b;
+  --btn-black-hover: #262422;
+
+  /* Accent status colors */
+  --accent-green: #2d7a4f;
+  --accent-green-subtle: #ebf5ee;
+  --accent-amber: #b46b17;
+  --accent-amber-subtle: #fdf5ea;
+  --accent-rose: #a83b3b;
+  --accent-rose-subtle: #fcf0f0;
+
+  /* Typography Colors */
+  --text-dark: #1a1816;
+  --text-body: #3c3833;
+  --text-muted: #736c63;
+  --text-light: #9e9589;
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-full: 9999px;
+
+  --shadow-subtle: 0 1px 3px 0 rgba(30, 24, 18, 0.04), 0 1px 2px -1px rgba(30, 24, 18, 0.04);
+  --shadow-card: 0 4px 6px -1px rgba(30, 24, 18, 0.05), 0 2px 4px -2px rgba(30, 24, 18, 0.03);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-page);
+  color: var(--text-dark);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  letter-spacing: -0.02em;
+  color: var(--text-dark);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  font-family: var(--font-body);
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: all 0.15s ease-in-out;
+}
+
+input, select, textarea {
+  font-family: var(--font-body);
+  outline: none;
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #d8d0c0;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #b8aea0;
+}
